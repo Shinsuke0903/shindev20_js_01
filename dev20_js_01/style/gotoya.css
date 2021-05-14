@@ -1,0 +1,243 @@
+/* ボディ全体の設定をする */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #EEEEEE;
+    height:1300px;
+}
+  /* ヘッダーの設定をする */
+.header{
+    background-color:blue;
+    height:100px;
+    position: fixed;
+    z-index:10;
+    width: 100%;
+    font-size: 30px;
+    font-family:"Comic Sans MS"; 
+    color:white;  
+    top:0px; 
+}
+.header-logo{
+    width:400px;
+    padding-top:20px;
+    padding-left: 10px;
+    float:left;
+    font-size: 30px;
+    margin-bottom:0px;
+}
+.header-apuri{
+    float:left;
+    font-family:"Comic Sans MS";
+    font-size: 40px; 
+    margin-top:20px;
+    width:800px;
+    margin-left:20px;
+}
+.rinen{
+    margin-top:100px;
+    height:60px;
+    background-color: #33CCFF;
+    
+}
+.rinen-top{
+    font-size:40px;
+    text-align: center;
+    margin-top:0px;
+    color: white;
+}
+/* 糖質量ごとにメニュを提案する中身を作る */
+.main{ 
+    z-index:1;
+    background-color: #EEEEEE;
+    border:1px solid #EEEEEE;
+    height: 1400px;
+}
+.forhere{
+    width:100%;
+    
+}
+.forhere-box{
+    text-align: center;
+    margin:auto; 
+
+ 
+}
+.forhere-left{
+    float:left;
+    width: 49%;
+    height:800px;
+    background-color: #EEEEEE;
+
+}
+.forhere-text{
+    height:400px;
+    border-bottom:1px solid gray;
+    border-right:1px solid gray;
+    border-left:1px solid gray;
+    border-radius: 20px;
+}
+.forhere-text p{
+    font-size:25px;
+}
+.forhere-tou{
+    height:350px;
+    border-bottom:1px solid gray;
+    border-right:1px solid gray;
+    border-left:1px solid gray;
+    border-radius: 20px;
+}
+/* ボタンの設定をする */
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    background-color:white;
+    position: relative;
+    box-shadow: 0px 10px lightblue;
+    border-radius: 20px;
+    color:black;
+    font-size: 30px;
+    width:130px;
+    height: 180px;
+  }
+  .btn:active {
+    position: relative;
+    top: 10px;
+    box-shadow: none;
+  }
+  .vlimage{
+    width:120px;
+    padding-top:10px;
+    position: relative;
+  }
+  .forhere-tou p{
+      position: absolute;
+      top:24px;
+      left:40px;
+}
+
+.forhere-right{
+    float:left;
+    width: 49%;
+    height:775px;
+    margin-top:20px;
+    margin-left:25px;
+    background-color: #EEEEEE;
+    border-bottom:1px solid gray;
+    border-right:1px solid gray;
+    border-left:1px solid gray;
+    border-radius: 20px;
+    
+}
+#food1{
+    width:400px;
+    clear: both;
+    margin-top: 6px;
+    
+}
+#change-weight{
+    font-family:"Neon-tube";
+    font-size:60px;
+    width:300px;
+    margin-top: 0.5px;
+    margin-left:180px;
+    float: left;
+    border-bottom: 3px solid black;
+    color: blue;
+}
+#change-menu{
+    font-family: 'Cherry Swash', cursive;
+    font-size:30px;
+    margin-top: 0.5px;
+}
+.gram{
+    float: left;
+    font-size:50px;
+}
+.item{
+    margin-top: 2px;
+}
+/* ミールキットの設定をする */
+.mealkit{
+    height: 600px; 
+    margin-top:300px;
+    clear: both;
+    border-bottom:1px solid gray;
+    border-right:1px solid gray;
+    border-left:1px solid gray;
+    border-radius: 20px;
+    padding-top: 0px;
+}
+.mealkit-top{  
+    text-align: center;
+    height: 80px;
+    padding-top:30px;
+    padding-top: 0px;
+}
+.mealkit-top h1{
+    background-color: #33CCFF;
+    color: white;
+    margin-top:0px;
+}
+.mealkit-middle{
+    padding-top:300px;
+    height: 580px;
+    text-align: center;
+    padding-top: 0px;
+  
+}
+#food2{
+    width:400px;
+    margin-top:20px;
+}
+#takechange-weight{
+    font-family:"Neon-tube";
+    font-size:60px;
+    width:300px;
+    margin-top: 0.5px;
+    margin-left:180px;
+    float: left;
+    color: blue;
+    border-bottom: 3px solid black;
+
+}
+#takechange-menu{
+    font-family: 'Cherry Swash', cursive;
+    font-size:30px;
+    margin-top: 0.5px;
+}
+.gram2{
+    float: left;
+    font-size:50px;
+}
+.middle-left{
+    float: left;
+    width:49%;
+    height: 450px;
+    margin-top: 0px;
+    padding-top: 80px;
+
+}
+.middle-right{
+    float: left;
+    width:49%;
+    height: 500px;
+    margin-left:22px;
+
+    padding-top: 0px;
+
+}
+footer{
+    background-color: blue;
+    height:60px;
+    text-align: center;
+    font-size: 20px;
+    color: white; 
+}
+footer p{
+    color: white;
+    font-family:"Comic Sans MS";
+    padding-top: 15px;    
+}
+
+
+
+

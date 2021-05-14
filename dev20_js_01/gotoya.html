@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/gotoya.css">
+    <link href="https://fonts.googleapis.com/css?family=Cherry+Swash:700" rel="stylesheet">
+    <title>Gotoya</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+</head>
+<body>
+    <!-- ヘッダーを作る -->
+    <div class="header" >
+        <p class="header-logo">Gotoya</p>   
+        <p class="header-apuri">「Tekito」適当に適糖生活！</p>  
+    </div>
+    <div class="rinen">
+        <p class="rinen-top">糖質管理支援サービス</p>
+    </div>
+    <!-- 中身を作る -->
+    <div class="main">
+        <!-- 糖質量ごとにメニュを提案する中身を作る -->
+        <div class="forhere">
+            <div class="forhere-box">
+                <div class="forhere-left">
+                    <!-- サービス概要のテキストを書いていく -->
+                    <div class="forhere-text">
+                        <h1>糖質量からメニューを表示します！</h1>
+                        <p>「外食時に糖質管理しにくい」という声を多く頂き<br>当サービスが開発されました。</p>
+                        <p>下記糖質量のボタンを押すと<br>その糖質量に該当するメニューを選び<br>提案致します。</p>
+                        <p>さぁ、新しい食事の選択を体験しよう！</p>
+                    </div>
+                    <!-- 糖質ボタンを作る -->
+                    <div class="forhere-tou">
+                        <h1>ボタンを押してメニューを表示しよう！</h1>
+                        <div class="btn" id="very-low" >
+                            <img src="img/a.jpeg" class="vlimage" alt="">
+                            <p>|<br>10g</p>
+                        </div>
+                        <div class="btn" id="low">
+                            <img src="img/a.jpeg" class="vlimage" alt="">
+                            <p>10<br>|<br>20g</p>                      
+                        </div>
+                        <div class="btn" id="middle">
+                            <img src="img/a.jpeg" class="vlimage" alt="">
+                            <p>20<br>|<br>30g</p>
+                        </div>
+                        <div class="btn" id="high">
+                            <img src="img/a.jpeg" class="vlimage" alt="">
+                            <p>30<br>|<br>40g</p>
+                        </div>
+                        <div class="btn" id="very-high">
+                            <img src="img/a.jpeg" class="vlimage" alt="">
+                            <p>40g<br>|</p>
+                        </div>   
+                    </div>
+                </div>
+            <!-- 糖質量ごとにメニュ-を一つピックアップし提案する -->
+                <div class="forhere-right"> 
+                    <h1 class="item">店内用メニュー</h1>
+                    <p id="change-menu">おすすめのメニューを提案します</p>
+                    <p id="change-weight">〇〇</p><p class="gram">g</p>
+                    <img id="food1" src="img/1001.jpeg" alt=""> 
+                </div>
+            </div>
+        </div>        
+        <!-- メニューとは別カテゴリのメニューをミールキットとして提案する -->
+        <div class="mealkit">
+            <!-- ミールキットのリコメンドのテキストを書いていく -->
+            <div class="mealkit-top">
+                <h1>ご一緒に家で食べられるミールキットはいかがでしょうか</h1>
+            </div>
+            <!-- ミールキットのメニューの画像を表示する(上で表示したものとは別のメニュー) -->
+            <div class="mealkit-middle">
+                <div class="middle-left">
+                    <h1 class="item">ミールキットメニュー</h1>
+                    <p id="takechange-menu">おすすめのメニューを提案します</p>
+                    <p id="takechange-weight">〇〇</p><p class="gram2">g</p>
+                </div>
+                <div class="middle-right">
+                    <img id="food2" src="img/1000.jpeg" alt="">    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- フッターを作る -->
+    <footer>
+        <p>copyrights 2021 Metalife All RIghts Reserved.</p>
+    </footer>
+    <script type="text/javascript" src="js/gotoya.js"></script>   
+</body>
+</html>
+
+
+
+
+
